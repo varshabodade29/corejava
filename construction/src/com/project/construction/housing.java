@@ -2,7 +2,7 @@ package com.project.construction;
 
 public class housing extends Builders {
 	String id;
-	//String name;
+	String name;
 	String location;
 	String Start_date;
 	String End_date;
@@ -10,10 +10,14 @@ public class housing extends Builders {
 	int peopleatwork;
 
 	public void Housingdetails() {
+		System.out.println("Builder name :"+ name);
+		System.out.println("Location:"+ location+"and End date is "+End_date);
 		System.out.println("1250 Happy Families are residing here for last 8 yrs");
 		System.out.println("Includes aminities like swimming pool, tennis court, football field, cricket pitch, fully equipped gymnasium and many more");
-		System.out.println("Has multi level car parking, kids play area as wll as special space for senior citizens");
-		System.out.println("Builder name :"+ name);
+		//System.out.println("Has multi level car parking, kids play area as wll as special space for senior citizens");
+		System.out.println("PAN no is"+ PAN);
+		
+		
 	}
 	
 }

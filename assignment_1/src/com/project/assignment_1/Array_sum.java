@@ -1,5 +1,4 @@
 package com.project.assignment_1;
-
 public class Array_sum {
 	public static void main(String[] args) {
 		int[] number = new int[10];

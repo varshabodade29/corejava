@@ -1,5 +1,4 @@
 package com.project.assignment_1;
-
 public class ascending_order {
 	public static void main(String[]args) {
 		int[] numberset=new int[10];
@@ -14,7 +13,6 @@ public class ascending_order {
 		numberset[7]=56;
 		numberset[8]=753;
 		numberset[9]=111;
-		
 		System.out.println("Asecending order is:");
 		//compare each element with next element, if found smaller then swap
 		for(int i=0;i<10;i++) {					
@@ -30,5 +28,4 @@ public class ascending_order {
 			System.out.println(numberset[i]);
 		}
 	}
-	
-}
+	}
